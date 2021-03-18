@@ -1,0 +1,50 @@
+.subcontainer{
+    width: 70%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.subs-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-box{
+    height: 18rem;
+    width: 18rem;
+    border: solid 2px rgba(204,204,204, .6);
+    border-radius: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sub-box a:link,
+.sub-box a:visited,
+.sub-box a:hover,
+.sub-box a:active{
+    margin-top: 20%;
+    text-decoration: none;
+    outline: none;
+    font-size: 1.7rem;
+    color: black;
+}
+
+.sub-img{
+    height: 8rem;
+    width: 8rem;
+    background-color: #92d62e;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+button{
+    margin-top: .5rem;
+    border: 1px solid rgba(204,204,204, .4);
+    background-color: transparent;
+    font-size: 3rem;
+    cursor: pointer;
+    color: #92d62e;
+}
