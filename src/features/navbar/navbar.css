@@ -1,0 +1,28 @@
+svg {
+    height: 4rem;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    height: 6rem;
+    overflow: hidden;
+}
+
+
+.icons{
+    width: 11rem;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.icon {
+    color: #92d62e;
+}
+.user .icon{
+    margin-left: 2rem;
+}
