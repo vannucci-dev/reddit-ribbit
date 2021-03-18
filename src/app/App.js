@@ -1,7 +1,13 @@
 import React from "react";
 
 const App = () => {
-  return <div>Reddit Ribbit</div>;
+  return (
+    <div>
+      <Navbar />
+      <SubscribedList />
+      <PostsFeed />
+    </div>
+  );
 };
 
 export default App;
