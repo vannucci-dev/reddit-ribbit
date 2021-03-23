@@ -112,7 +112,10 @@ const Navbar = () => {
         <i className="icon fas fa-pen-nib fa-lg"></i>
       </div>
       <div className="user">
-        Nickname
+        <div className="nickname">
+          <h4>Mr. Ribbity Rib</h4>
+          <p>4 karma</p>
+        </div>
         <i className="icon fas fa-frog fa-2x"></i>
       </div>
     </div>

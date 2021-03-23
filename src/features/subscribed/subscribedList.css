@@ -1,6 +1,6 @@
 .subcontainer{
-    width: 70%;
-    margin: 3rem auto;
+    width: 60%;
+    margin: 1rem auto;
     display: flex;
     flex-direction: column;
 }
@@ -11,8 +11,8 @@
 }
 
 .sub-box{
-    height: 18rem;
-    width: 18rem;
+    height: 12rem;
+    width: 12rem;
     border: solid 2px rgba(204,204,204, .6);
     border-radius: 23%;
     display: flex;
@@ -28,13 +28,13 @@
     margin-top: 20%;
     text-decoration: none;
     outline: none;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     color: black;
 }
 
 .sub-img{
-    height: 8rem;
-    width: 8rem;
+    height: 5rem;
+    width: 5rem;
     background-color: #92d62e;
     border-radius: 50%;
     margin-top: 10%;
@@ -42,9 +42,13 @@
 
 button{
     margin-top: .5rem;
-    border: 1px solid rgba(204,204,204, .4);
+    margin-left: 50%;
+    border: none;
+    outline: none;
+    transform: translateX(-50%);
     background-color: transparent;
     font-size: 3rem;
     cursor: pointer;
     color: #92d62e;
+    width: 4rem;
 }

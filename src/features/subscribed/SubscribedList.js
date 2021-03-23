@@ -21,8 +21,12 @@ const SubscribedList = () => {
           <div className="sub-img"></div>
           <a href="#">/subreddit</a>
         </div>
+        <div className="sub-box">
+          <div className="sub-img"></div>
+          <a href="#">/subreddit</a>
+        </div>
       </div>
-      <button>+</button>
+      <button className="plus-button">+</button>
     </div>
   );
 };

@@ -1,0 +1,7 @@
+.cta{
+    display: flex;
+    margin: -1rem 0 2rem 0;
+    width: 6rem;
+    justify-content: space-between;
+    color: #92d62e;
+}

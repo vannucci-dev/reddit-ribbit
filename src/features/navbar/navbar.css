@@ -1,5 +1,5 @@
 svg {
-    height: 4rem;
+    height: 3rem;
 }
 
 .navbar-container{
@@ -7,7 +7,7 @@ svg {
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    height: 6rem;
+    height: 4rem;
     overflow: hidden;
 }
 
@@ -22,6 +22,12 @@ svg {
 
 .icon {
     color: #92d62e;
+}
+.user{
+    display: flex;
+}
+.user h4{
+    font-weight: 700;
 }
 .user .icon{
     margin-left: 2rem;

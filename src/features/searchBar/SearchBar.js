@@ -18,7 +18,7 @@ const SearchBar = () => {
       className="searchBar"
       type="text"
       value={value}
-      placeholder="ribbit ribbit..."
+      placeholder="  ribbit ribbit..."
       onChange={handleChange}
       onKeyDown={handleKey}
     ></input>

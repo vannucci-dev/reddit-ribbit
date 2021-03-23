@@ -1,0 +1,10 @@
+.vote-counter{
+    margin: 0 2rem 0 1rem;
+    display: flex;
+    height: 4.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.vote-count{
+    color:#92d62e;
+}

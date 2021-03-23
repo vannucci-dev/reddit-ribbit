@@ -1,11 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-
-const testReducer = (state = [], action) => {
-  return state;
-};
+import postsSlice from "../features/postsfeed/postsFeedSlice";
 
 const reducer = {
-  test: testReducer,
+  posts: postsSlice,
 };
 
 export const store = configureStore({ reducer });
